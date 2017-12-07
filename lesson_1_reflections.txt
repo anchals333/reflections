@@ -31,7 +31,7 @@ could break something?
 
 Now that you have your workspace set up, what do you want to try using Git for?
 
-    Git for version-control in my current projects and upcoming projects
+    Git for version-control in my current projects and upcoming projects.
 
 
  How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
