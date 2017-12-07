@@ -1,0 +1,5 @@
+
+
+What happens when you initialize a repository? Why do you need to do it?
+
+Ans. git init create a empty repository which contains no commit and turns a repository into git repository so that we can start tracking files.
