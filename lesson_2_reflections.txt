@@ -1,11 +1,18 @@
 
 
 What happens when you initialize a repository? Why do you need to do it?
-
 Ans. git init create a empty repository which contains no commit and turns a repository into git repository so that we can start tracking files.
+
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 Ans.Staging area is the preparation area for files to be committed. Only files in this area are going to be included in the commit executed next time. It helps to divide changes in the working directory into several commits, each of which consists of a group of changes that represent a logical change to the relevant files.
 
+
 How can you use the staging area to make sure you have one commit per logical change?
 Ans. Only files in this area are going to be included in the commit executed next time. It helps to divide changes in the working directory into several commits, each of which consists of a group of changes that represent a logical change to the relevant files.
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Ans. As described in the lesson, branches are useful for when you have working code and want to try a variation in functionality without breaking what you
+currently have. By branching you create a copy of the master (or wherever the head is) and then "branch off" at that point. The main branch stays 
+intact and unchanged, but you are free to make any changes to the new branch.
