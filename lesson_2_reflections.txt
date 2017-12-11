@@ -16,3 +16,6 @@ What are some situations when branches would be helpful in keeping your history 
 Ans. As described in the lesson, branches are useful for when you have working code and want to try a variation in functionality without breaking what you
 currently have. By branching you create a copy of the master (or wherever the head is) and then "branch off" at that point. The main branch stays 
 intact and unchanged, but you are free to make any changes to the new branch.
+
+How do the diagrams help you visualize the branch structure?
+Ans. With using git log --graph (possibly with --oneline) [branch names...], you can easily tell how the whole branch structure was developed and at which point each branch was actually created. That would give you the overview of the whole structure of the project you are working on, so that you can tell what you are specifically focusing on and when and which branch to merge your work.
